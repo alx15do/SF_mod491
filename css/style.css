@@ -1,0 +1,82 @@
+/* файл стилей */
+
+* {
+/*
+margin:0;
+padding:0;
+border:0;
+*/
+}
+
+a {
+
+}
+
+
+a:hover {
+  color: forestgreen;
+  text-decoration-color: hotpink;
+}
+
+main {
+	padding: 20px;
+	min-width: 1200px;
+	overflow: auto;
+}
+
+
+article {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	min-width:500px;	
+}
+
+figure {
+	width: 40%;
+	margin: 0;
+	display: inline-block;
+	min-width:500px;
+}
+
+figure img {
+	width:500px;
+	border-radius: 10%;
+	box-shadow: 5px 5px 5px #777;
+}
+
+header {
+	border-bottom: 1px dotted #000;
+}
+
+footer {
+	border-top: 1px dotted #000;
+	padding: 2em;
+	text-align: center;
+}
+
+header nav {
+
+}
+
+header nav ul {
+	padding-left: 0;
+
+}
+
+header nav li {
+	display: inline-block;
+}
+
+header nav li a { 
+
+}
+
+.inactive { 
+	cursor: default;
+	text-decoration: none;
+}
+
+address {
+
+}
